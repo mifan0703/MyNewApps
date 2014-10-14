@@ -1,0 +1,57 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>柴犬天下</title>
+<style type="text/css">
+body {
+	background-image: url(1010.jpg);
+	background-repeat: repeat;
+}
+.colorcode {
+	color: #F30;
+}
+.colorCode {
+	color: #900;
+}
+.colorcode {
+	color: #FF0;
+}
+.color {
+	color: #FFF;
+}
+</style>
+</head>
+<body>
+<p class="color">給 我 柴 犬 其 餘 免 談 ! </p>
+<script type="text/javascript">
+function AlertIt() {
+	//亂數
+	var myrandom=Math.round(Math.random()*2)
+	//訊息清單
+	var messages=new Array()
+	messages[0]="想認識柴犬嗎？"
+	messages[1]="好想帶牠們回家嗎？"
+	messages[2]="想知道牠們多可愛嗎？"
+	//連結清單
+	var links=new Array()
+	links[0]="http://www.shibainuclub.com/"
+	links[1]="http://shibafb.com/shiba/forum.php?mod=forumdisplay&fid=38"
+	links[2]="https://www.facebook.com/shibauni"
+	links[3]="http://news.gamme.com.tw/tag/%E6%9F%B4%E7%8A%AC"
+	//點下去要顯示
+	var answer = confirm (messages[myrandom])
+	//如果點「是」
+	if (answer)
+	window.location=links[myrandom]
+	if (!answer)
+	window.location=links[3]
+}
+</script> 
+<table width="100%" height="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+  <td align="center" valign="middle"><a href="javascript:AlertIt();"><img src="shibaman.png" width="637" height="594" /><p class="colorcode">我 愛 柴 爺!</p></a>
+  </tr>
+</table>
+</body>
+</html>
